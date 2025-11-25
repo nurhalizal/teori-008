@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Teori dan Komputasi - Fields</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="unhas.png">
+</head>
+<body>
+    <input type="checkbox" id="menu-toggle" />
+
+<!-- Hero section -->
+<section class="hero">
+  <div class="hero-inner">
+    <h1>Laboratorium Fisika Teori dan Komputasi</h1>
+    <p class="lead">"When you understand the laws of physics, anything is possible" ~ The Big Bang Theory</p>
+    <a href="index.html" class="btn-cta">Back to Home</a>
+  </div>
+</section>
+
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="#" class="site-logo">
+      <img src="unhas.png" alt="Logo Unhas">
+      <span>Theoretical Physics and Computation <br>
+        Fisika FMIPA UNHAS
+      </span>
+    </a>
+
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#About">About</a></li>
+      <li><a href="people.html">People</a></li>
+      <li class="dropdown">
+        <a href="#Field" class="active">Fields ▾ </a>
+        <ul class="dropdown-menu">
+            <li><a href="#CM">Condensed Matter</a></li>
+            <li><a href="#AC">Astronomy/Cosmology</a></li>
+            <li><a href="#PP">Particle Physics</a></li>
+            <li><a href="#CP">Computation</a></li>
+        </ul>
+        </li>
+      <li class="dropdown" ><a href="course.html">Courses</a> </li>
+    </ul>
+
+    <!-- Hamburger Toggle -->
+    <label for="menu-toggle" class="hamburger">
+      <span class="line"></span>
+    </label>
+  </div>
+</header>
+
+<!-- Sidebar + overlay -->
+<div class="mobile-overlay"></div>
+<nav class="mobile-sidebar">
+  <label for="menu-toggle" class="mobile-close">✕</label>
+  <a href="index.html">Home</a>
+  <a href="index.html#About">About</a>
+  <a href="people.html">People</a>
+  <a href="#Field">Our Fields</a>
+    <div class="mobile-submenu">
+    <a href="#CM">Condensed Matter</a>
+    <a href="#AC">Astrophysics/Cosmology</a>
+    <a href="#PP">Particle Physics</a>
+    <a href="#CP">Computation</a>
+    </div>
+  <a href="course.html">Courses</a>
+</nav>
+
+<main class="main-content container">
+<section class="card" id="Field">
+  <img src="lab1.jpeg" alt="Foto Lab">
+  <p>Fisika Teori dan Komputasi merupakan bidang fisika yang fokus pada pendekatan konseptual
+    terhadap fenomena-fenomena fisis, serta penggunaan algoritma numerik untuk memecahkan masalah-masalah fisika.
+    Meski bersifat 'teoretis', disiplin ilmu ini memiliki aplikasi yang luas dalam fisika dan sains secara umum, 
+    seperti dalam <i>material science</i>, <i>data analytics</i>, astrofisika, dan <i>programming</i> 
+  </p>
+  <h4>Core Principles/Methodologies</h4>
+  <p>Dalam fisika teori dan komputasi, terdapat beberapa prinsip atau metodologi pokok yang digunakan dalam
+    mengobservasi masalah-masalah fisis, di antaranya sebagai berikut:</p>
+  <ul>
+    <li><em><i>Mathematical modeling</i></em> <br>
+    Fisika teori menggunakan model matematis untuk mendeskripsikan dan mengelaborasi fenomena-fenomena fisika di alam.
+  Pada dasarnya, dalam hal ini, fisika teori berusaha menggambarkan pengamatan fisis ke dalam bahasa matematis.</li>
+    <li><em><i>Abstraction and Prediction</i></em> <br>
+    Berawal dari model matematis, fisika teori menggunakan model ini untuk menghasilkan model matematis yang lebih sederhana, kemudian
+    menggunakannya untuk memprediksi perilaku dari sistem-sistem fisis melampaui yang telah diuji.</li>
+    <li><em><i>Numerical Analysis dan Simulation</i></em> <br>
+    Metode komputasi kemudian hadir menyediakan solusi bagi persamaan-persamaan atau sistem kompleks
+  dari model teoretis melalui approksimasi dengan akurasi tinggi.</li>
+    <li><em><i>Verification & Validation</i></em> <br>
+    Bagian ini penting untuk memastikan bahwa model dan pendekatan yang digunakan akurat dan sesuai untuk menggambarkan fenomena fisis
+  yang diobservasi.</li>
+  </ul>
+</section>
+
+<section class="feature-card">
+<h3>Subfields of Theoretical Physics and Computation</h3>
+<details class="student-list" id="CM">
+ <summary>Condensed Matter Physics</summary>
+ <div class="feature-item">
+    <div class="feature-text">
+      <h4>Fisika Bahan Mampat</h4>
+      <p> <i>Condensed matter physics</i> atau fisika bahan mampat mempelajari perilaku
+        kumpulan besar partikel-partikel yang berinteraksi, seperti atom, elektron, atau spin pada
+        bahan padat dan cairan. Tujuannya yakni untuk memahami pengaruh kondisi mikroskopik mekanika
+        kuantum pada bahan terhadap besaran-besaran makroskopiknya, misalnya konduktivitas dan 
+        magnetisme. Topik ini mencakup <i>material science</i> secara mendalam seperti transisi fasa quantum. 
+        </p>
+    </div>
+    <div class="feature-image">
+      <img src="cm.jpg" alt="">
+    </div>
+ </div>
+</details>
+<details class="student-list" id="AC">
+ <summary>Astrophysics - Cosmology</summary>
+ <div class="feature-item">
+    <div class="feature-image">
+      <img src="cosmo.jpg" alt="">
+    </div>
+    <div class="feature-text">
+      <h4>Astrofisika - Kosmologi </h4>
+      <p>Astrofisika mengaplikasikan hukum-hukum fisis untuk memahami objek-objek langit dan proses
+        yang dialaminya. Hal ini mencakup bintang, galaksi, hingga <i>black hole</i>. Sementara itu,
+        Kosmologi fokus pada alam semesta secara keseluruhan, yakni mempelajari asal-usulnya, evolusi, komposisi,
+        dan strukturnya. Bidang ini mengkaji relativitas, teori medan kuantum, hingga fenomena kosmik menarik lainnya seperti <i>dark matter</i>.
+      </p>
+    </div>
+ </div>
+</details>
+<details class="student-list" id="PP">
+ <summary>Particle Physics</summary>
+ <div class="feature-item">
+    <div class="feature-text">
+      <h4>Fisika Partikel</h4>
+      <p>Fisika partikel ialah bidang fisika yang mempelejari alam melalui <i>building blocks</i> pokok penyusunnya.
+      Partikel-partikel dasar ini mencakup quark, lepton, boson, dan lain-lain yang dapat ditinjau berdasarkan kerangka
+    Model Standar Fisika Partikel. Model standar ini juga menjelaskan mengenai gaya-gaya fundamental.</p>
+    </div>
+    <div class="feature-image">
+      <img src="particle.png" alt="">
+    </div>
+ </div>
+</details>
+<details class="student-list" id="CP">
+ <summary>Computational Physics</summary>
+ <div class="feature-item">
+    <div class="feature-image">
+      <img src="compute.jpg" alt="">
+    </div>
+    <div class="feature-text">
+      <h4>Fisika Komputasi</h4>
+      <p>Fisika menggunakan metode komputasi untuk mensimulasikan sistem-sistem kompleks yang sulit atau bahkan tidak dapat lagi diselesaikan
+        secara analitik. Sistem yang dimaksud mulai dari dinamika fluida hingga <i>many-body systems</i> dalam kunatum.
+        Komputasi ini meliputi penyelesaian numerik untuk persamaan differensial, metode Monte Carlo, serta simulasi kuantum.
+        Komputasi memberi akses tinjauan fisika yang kompleks melalui algoritma numerik.
+      </p>
+    </div>
+ </div>
+</details>
+</section>
+
+<section class="card">
+<h3>Courses in Theoretical Physics and Computation Lab</h3>
+<p>Berikut daftar mata kuliah yang ditawarkan di Laboratorium Fisika Teori dan Komputasi</p>
+<a href="course.html" class="feature-btn">More</a>
+</section>
+
+
+<footer class="site-footer">
+      © <span id="year"></span> Theoretical Physics and Computation — Physics Department — FMIPA Universitas Hasanuddin
+    </footer>
+</main>
+</body>

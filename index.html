@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Teori dan Komputasi - Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="unhas.png">
+</head>
+<body>
+
+
+<input type="checkbox" id="menu-toggle" />
+
+<!-- Hero section -->
+<section class="hero">
+  <div class="hero-inner">
+    <h1>Laboratorium Fisika Teori dan Komputasi</h1>
+    <p class="lead">"When you understand the laws of physics, anything is possible" ~ The Big Bang Theory</p>
+    <a href="#About" class="btn-cta">Welcome</a>
+  </div>
+</section>
+
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="#" class="site-logo">
+      <img src="unhas.png" alt="Logo Unhas">
+      <span>Theoretical Physics and Computation</span>
+    </a>
+
+
+    <ul class="nav-links">
+      <li><a href="#Home" class="active">Home</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="people.html">People</a></li>
+      <li class="dropdown">
+        <a href="field.html">Fields ▾</a>
+        <ul class="dropdown-menu">
+            <li><a href="field.html#CM">Condensed Matter</a></li>
+            <li><a href="field.html#AC">Astronomy/Cosmology</a></li>
+            <li><a href="field.html#PP">Particle Physics</a></li>
+            <li><a href="field.html#CP">Computation</a></li>
+        </ul>
+        </li>
+      <li class="dropdown" ><a href="course.html">Courses</a> </li>
+    </ul>
+
+
+    <label for="menu-toggle" class="hamburger">
+      <span class="line"></span>
+    </label>
+  </div>
+</header>
+
+<!-- Sidebar-->
+<div class="mobile-overlay"></div>
+<nav class="mobile-sidebar">
+  <label for="menu-toggle" class="mobile-close">✕</label>
+  <a href="#Home">Home</a>
+  <a href="#About">About</a>
+  <a href="people.html">People</a>
+  <a href="field.html">Fields</a>
+    <div class="mobile-submenu">
+    <a href="field.html#CM">Condensed Matter</a>
+    <a href="field.html#AC">Astrophysics/Cosmology</a>
+    <a href="field.html#PP">Particle Physics</a>
+    <a href="field.html#CP">Computation</a>
+    </div>
+  <a href="course.html">Courses</a>
+</nav>
+
+
+  <!-- main content -->
+  <main class="main-content container" id="Home">
+   
+    <section class="card">
+        <h2>Welcome to our site!</h2>
+        <p>Physics is the science where we study with the goal of understanding how the universe works—from the tiniest subatomic particles to the largest cosmic structures. Hence, it has wide areas of study.
+        One of which, is theoretical physics and computation.</p>
+        <p>Here, let us dive deeper into the world of physics together.</p>
+    </section>
+
+    <section class="feature-card" id="About">
+    <div class="feature-item">
+        <div class="feature-image">
+            <img src="tamfis2.jpg" alt="Physics Department">
+        </div>
+        <div class="feature-text">
+            <h3>Department of Physics</h3>
+            <p> Departemen Fisika, sebagai jurusan Fisika FMIPA Universitas Hasanuddin berdiri sejak 17 Agustus 1963 
+              di bawah Fakultas Ilmu Pasti dan Ilmu Pengetahuan Alam (FIPPA) di Makassar. Kini, jurusan Fisika FMIPA UNHAS
+              terdiri dari empat bidang atau laboratorium peminatan: Laboratorium Elektronika dan Instrumentasi, Laboratorium Fisika Material dan Energi,
+              Laboratorium Optik, Fisika Medik, dan Spektroskopi, serta LAboratorium Fisika Teori dan Komputasi
+            </p>
+        </div>
+    </div>
+    <div class="feature-item">
+         <div class="feature-text">
+            <h3>Theoretical and Computation Lab</h3>
+            <p> Fisika teori dan komputasi merupakan salah satu bidang peminatan di progam studi Fisika FMIPA UNHAS.
+              Bidang ini berfokus pada pendekatan konseptual fenomena-fenomena fisis, serta penggunaan algoritma numerik
+              untuk memecahkan masalah-masalah fisika. 
+            </p>
+        </div>
+        <div class="feature-image">
+            <img src="lab1.jpeg" alt="Our Lab">
+        </div>
+    </div>    
+    </section>
+
+
+    <!-- article list
+    <section id="articles" class="card">
+      <h2>Latest Articles</h2>
+      <div class="article-list">
+        <article class="article-card">
+          <img src="preview1.jpg" alt="">
+          <div class="meta">
+            <h3>Understanding Numerical Methods</h3>
+            <p>A short excerpt describing this post. <a href="article1.html">Read more →</a></p>
+          </div>
+        </article>
+
+    
+        <article class="article-card">
+          <img src="preview2.jpg" alt="">
+          <div class="meta">
+            <h3>Simulating Coupled Oscillators</h3>
+            <p>Short excerpt about simulations and results. <a href="article2.html">Read more →</a></p>
+          </div>
+        </article>
+      </div>
+    </section> -->
+
+    <!-- gallery -->
+    <section class="card">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <div class="gallery-item"><img src="labpintu.jpg" alt=""></div>
+        <div class="gallery-item"><img src="tamfis2.jpeg" alt=""></div>
+        <div class="gallery-item"><img src="lab2.jpeg" alt=""></div>
+        <div class="gallery-item"><img src="Tamfis1.jpg" alt=""></div>
+        <div class="gallery-item"><img src="pic1.jpeg" alt=""></div>
+        <div class="gallery-item"><img src="colpic2.jpeg" alt=""></div>
+        <div class="gallery-item"><img src="pic5.jpeg" alt=""></div>
+        <div class="gallery-item"><img src="pic6.jpeg" alt=""></div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="site-footer">
+      © <span id="year"></span> Theoretical Physics and Computation — Physics Department — FMIPA Universitas Hasanuddin
+    </footer>
+  </main>
+
+</body>
+</html>

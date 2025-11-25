@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Teori dan Komputasi - Courses</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="unhas.png">
+</head>
+<body>
+    <input type="checkbox" id="menu-toggle" />
+
+<!-- Hero section -->
+<section class="hero">
+  <div class="hero-inner">
+    <h1>Laboratorium Fisika Teori dan Komputasi</h1>
+    <p class="lead">"When you understand the laws of physics, anything is possible" ~ The Big Bang Theory</p>
+    <a href="index.html" class="btn-cta">Back to Home</a>
+  </div>
+</section>
+
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="#" class="site-logo">
+      <img src="unhas.png" alt="Logo Unhas">
+      <span>Theoretical Physics and Computation <br>
+        Fisika FMIPA UNHAS
+      </span>
+    </a>
+
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#About">About</a></li>
+      <li><a href="people.html">People</a></li>
+      <li class="dropdown">
+        <a href="field.html">Fields ▾ </a>
+        <ul class="dropdown-menu">
+            <li><a href="field.html#CM">Condensed Matter</a></li>
+            <li><a href="field.html#AC">Astronomy/Cosmology</a></li>
+            <li><a href="field.html#PP">Particle Physics</a></li>
+            <li><a href="field.html#CP">Computation</a></li>
+        </ul>
+        </li>
+        <li class="dropdown" ><a href="#Course" class="active">Courses</a> </li>
+    </ul>
+
+    <!-- Hamburger Toggle -->
+    <label for="menu-toggle" class="hamburger">
+      <span class="line"></span>
+    </label>
+  </div>
+</header>
+
+<!-- Sidebar + overlay -->
+<div class="mobile-overlay"></div>
+<nav class="mobile-sidebar">
+  <label for="menu-toggle" class="mobile-close">✕</label>
+  <a href="index.html">Home</a>
+  <a href="index.html#About">About</a>
+  <a href="people.html">People</a>
+  <a href="field.html">Our Fields</a>
+    <div class="mobile-submenu">
+    <a href="field.html#CM">Condensed Matter</a>
+    <a href="field.html#AC">Astrophysics/Cosmology</a>
+    <a href="field.html#PP">Particle Physics</a>
+    <a href="field.html#CP">Computation</a>
+<a href="#Course">Courses</a>    
+</div>
+</nav>
+
+<main class="main-content container">
+
+<section class="card" id="Course">
+<h3>Courses in Theoretical Physics and Computation Lab</h3>
+<p>Berikut daftar mata kuliah yang ditawarkan di Laboratorium Fisika Teori dan Komputasi</p>
+</section>
+
+<section class="courses-list">
+  <details class="course-card">
+    <summary class="course-btn">Numerical Methods</summary>
+    <div class="course-content">
+      <p><b>Credits:</b> 3 SKS</p>
+      <p><b>Description:</b>Mempelajari penggunaan metode numerik dengan bahasa pemrograman dalam perhitungan masalah fisis</p>
+    </div>
+  </details>
+  <details class="course-card">
+    <summary class="course-btn">Mathematical Physics III</summary>
+    <div class="course-content">
+      <p><b>Credits:</b> 3 SKS</p>
+      <p><b>Description:</b>Memperdalam pemahaman konsep fisika dengan pendekatan matematika lebih lanjut,
+      yang melibatkan aplikasi teknik matematis seperti analisis matriks, vektor, serta persamaan differensial dengan FDA dan FEA.</p>
+    </div>
+  </details>
+  <details class="course-card">
+    <summary class="course-btn">Quantum Mechanics</summary>
+    <div class="course-content">
+      <p><b>Credits:</b> 3 SKS</p>
+      <p><b>Description:</b>Melanjutkan pembahasan fisika kuantum hingga ke teori gangguan, teori hamburan, dan hamburan elastik.</p>
+    </div>
+  </details>
+  <details class="course-card">
+    <summary class="course-btn">General Relativity Theory</summary>
+    <div class="course-content">
+      <p><b>Credits:</b> 3 SKS</p>
+      <p><b>Description:</b>Membahas tentang sistem koordinat empat dimensi, prinsip dasar medan gravitasi, analisa tensor, hingga solusi
+        persamaan medan graitasi Einstein.
+      </p>
+    </div>
+  </details>
+  <details class="course-card">
+    <summary class="course-btn">Machine Learning</summary>
+    <div class="course-content">
+      <p><b>Credits:</b> 2 SKS</p>
+      <p><b>Description:</b>Pengantar menuju teori dan praktik pengembangan sistem yang mampu belajar melalui data.</p>
+    </div>
+  </details>
+  <details class="course-card">
+    <summary class="course-btn">Introduction to Linux</summary>
+    <div class="course-content">
+      <p><b>Credits:</b> 2 SKS</p>
+      <p><b>Description:</b>Memperkenalkan pada sistem operasi Linux, dengan berfokus pada operasi <i>command-line</i>,
+      <i>scripting</i>, dan aplikasi Linux dalam penelitian fisika.</p>
+    </div>
+  </details>
+  <details class="course-card">
+    <summary class="course-btn">Condensed Matter Theoretical Physics</summary>
+    <div class="course-content">
+      <p><b>Credits:</b> 3 SKS</p>
+      <p><b>Description:</b>Membahas secara teoretik bahan mampat (<i>condensed matter</i>) dan mekanisme penyebab dari keberadaan sifat-sifatnya, 
+        yaitu sifat listrik, sifat panas, sifat magnet, sifat superkonduktor serta sifat superfluida.</p>
+    </div>
+  </details>
+  <details class="course-card">
+    <summary class="course-btn">Nonlinear Dynamics</summary>
+    <div class="course-content">
+      <p><b>Credits:</b> 3 SKS</p>
+      <p><b>Description:</b>memperkenalkan konsep dasar dinamika nonlinier dalam sistem fisika, dengan penekanan pada bagaimana
+        interaksi nonlinier dapat menghasilkan perubahan perilaku yang bersifat kualitatif.</p>
+    </div>
+  </details>
+  <details class="course-card">
+    <summary class="course-btn">Introduction to Internet Programming</summary>
+    <div class="course-content">
+      <p><b>Credits:</b> 2 SKS</p>
+      <p><b>Description:</b>Mempelajari dasar-dasar yang diperlukan untuk membuat website interaktif.</p>
+    </div>
+  </details>
+</section>
+
+
+<footer class="site-footer">
+      © <span id="year"></span> Theoretical Physics and Computation — Physics Department — FMIPA Universitas Hasanuddin
+    </footer>
+</main>
+</body>
